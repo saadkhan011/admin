@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
-const url = process.env.MONGODB_URL || 'mongodb://localhost/admin_db' ;
-
-mongoose.connect({
+const uri = process.env.MONGODB_URI;
+mongoose.connect("mongodb://localhost:27017/PakScholarsInstitute", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
