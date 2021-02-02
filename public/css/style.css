@@ -125,7 +125,7 @@ section .container .imgBx{
     }
     section .container .conteent{
         position: absolute;
-        right: 0;
+        right: 12px;
         margin-top: 200px;
         padding: 40px;
         background: #1a1b1bb0!important;
