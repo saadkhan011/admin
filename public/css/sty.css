@@ -18,7 +18,7 @@
 }
 footer{
   position: relative;
-  bottom: 0px;
+  bottom: -28px;
   width: 100%;
   background: #111;
   margin: 0;
@@ -26,7 +26,7 @@ footer{
   color: #d9d9d9;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-}
+} 
 .main-content{
   display: flex;
 }
@@ -162,7 +162,7 @@ footer{
 @media screen and (max-width: 900px) {
   footer{
     position: relative;
-    bottom: 0px;
+    bottom: -25px;
   }
   .main-content{
     flex-wrap: wrap;

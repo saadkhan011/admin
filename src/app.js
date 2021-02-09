@@ -93,7 +93,7 @@ app.post("/register", async (req, res) =>{
         confirmpassword: req.body.confirmpassword
       })
 
-      console.log("the success part" + registerEmployee);
+      // console.log("the success part" + registerEmployee);
 
       const token = await registerEmployee.generateAuthToken();
       console.log("the token part" + token);
@@ -103,7 +103,7 @@ app.post("/register", async (req, res) =>{
         httpOnly:true
       });
 
-      console.log(cookie);
+      // console.log(cookie);
 
       const registered = await registerEmployee.save();
       console.log("the page part" + registered);
@@ -111,7 +111,7 @@ app.post("/register", async (req, res) =>{
       res.status(201).render("index");
 
     } else {
-      res.send("password are not matching")
+      res.send("Your information is not correct")
     }
 
   } catch (error) {
