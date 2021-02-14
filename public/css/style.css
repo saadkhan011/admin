@@ -137,7 +137,7 @@ section .container .imgBx{
         
     }
 section:nth-child(even) .container .conteent{
-        left: 0;
+        left: 14px;
     
     }
     @media (max-width:814px){

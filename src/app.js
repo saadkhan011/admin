@@ -44,6 +44,9 @@ app.get("/course", auth ,(req, res) => {
   res.render("course")
 });
 
+app.get("/index", (req, res) => {
+  res.render("index");
+});
 app.get("/register", (req, res) => {
   res.render("register");
 });
